@@ -1,0 +1,19 @@
+body {
+    padding-top: 70px; /* Ajustez cette valeur en fonction de la hauteur de votre navbar */
+}
+
+.navbar-fixed-top {
+    border-bottom: 1px solid #ddd;
+    background-color: rgb(72, 44, 191);
+    z-index: 1030;
+}
+
+
+.navbar-fixed-top .navbar-nav .nav-link {
+    color: rgb(255, 255, 255); /* Couleur blanche pour les liens */
+}
+
+.navbar-fixed-top .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.8); /* Couleur blanche avec opacité au survol */
+}
+
